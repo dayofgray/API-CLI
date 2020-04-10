@@ -1,5 +1,8 @@
 require "bundler/setup"
+Bundler.setup
 require "Calendly_API_CLI"
+require_relative "../lib/Calendly_API_CLI/CLI.rb"
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
